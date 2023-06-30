@@ -1,0 +1,31 @@
+.header-logo {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+    margin-left: 215px;
+    margin-top: 24px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    font-size: 14px;
+    gap: 50px;
+    margin-top: 26px;
+    margin-right: 200px;
+}
+
+li:nth-last-child(3) {
+    margin-right: 218px;
+}
+
+li:nth-child(3) {
+    margin-right: 219px;
+}
