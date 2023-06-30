@@ -27,3 +27,16 @@ a:hover {
     width: 1600px;
     height: 80px;
 }
+
+/* Header-body */
+
+.wrapper-2 {
+    width: 1695px;
+    height: 600px; 
+    background: #2F303A;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
