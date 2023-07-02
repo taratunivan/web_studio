@@ -23,7 +23,7 @@ a:hover {
     color: blue;
 }
 
-.wrapper {
+header {
     width: 1600px;
     height: 80px;
 }
@@ -40,3 +40,6 @@ button {
     border: none;
     cursor: pointer;
 }
+/* Main */
+
+/* Footer */

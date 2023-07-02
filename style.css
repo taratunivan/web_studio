@@ -5,8 +5,8 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
-    margin-left: 215px;
-    margin-top: 24px;
+    padding: 24px 25px;
+    margin: auto;
 }
 
 .header-nav {
@@ -19,8 +19,7 @@
     display: flex;
     font-size: 14px;
     gap: 50px;
-    margin-top: 26px;
-    margin-right: 200px;
+    margin: auto;
 }
 
 li:nth-last-child(3) {
@@ -43,8 +42,8 @@ li:nth-child(3) {
     font-weight: 900;
     line-height: 60px;
     text-transform: uppercase;
-    margin: auto;
     padding-top: 200px;
+    margin: auto;   
 }
 
 button {
@@ -60,5 +59,7 @@ button {
     font-weight: 700;
     line-height: 30px;
     margin: auto;
-    
 }
+/* Main */
+
+/* Footer */
