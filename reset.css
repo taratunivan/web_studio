@@ -1,45 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-ul {
+ul{
     list-style: none;
 }
-
-a {
+a{
+    text-decoration: none;
     color: inherit;
-    text-decoration-line: none;
-
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
 }
-
-a:hover {
-    color: blue;
+h1,h2,h3,h4,h5,h6{
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
 }
-
-header {
-    width: 1600px;
-    height: 80px;
-}
-
-/* Header-body */
-
-.wrapper-2 {
-    width: 1695px;
-    height: 600px; 
-    background: #2F303A;
-}
-
-button {
-    border: none;
-    cursor: pointer;
-}
-/* Main */
-
-/* Footer */

@@ -1,46 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https: //fonts.googleapis.com/css2? family= Roboto:wght@500;700;900 & display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="header-nav">
-          <div class="header-logo">
-              <img src="/img/WebStudio.svg" alt="Web-Studio Fail">
-          </div>
-
-          <ul class="header-nav-list">
-              <li><a href="">Студія</a></li>
-              <li><a href="">Портфоліо</a></li>
-              <li><a href="">Контакти</a></li>
-              <li><a href="">info@devstudio.com</a></li>
-              <li><a href="">+38 096 111 11 11</a></li>
-          </ul>
-      
-        </nav>
-       <section class="header-main">
-        <div class="wrapper-2">
-            <h1 class="header-main-text">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</р1>
-            <button class="button">Замовити послугу</button>
+  <header class="header-nav">
+    <div class="header-wrapper">
+      <div class="header-nav-wrapper">
+        <div class="header-logo">
+          <a href="index.html"><img src="./img/WebStudio.jpg" alt="logo" /></a>
         </div>
-       </section>
+        <ul class="navigation">
+          <li class="list"><a href="" class="link studio">Студія</a></li>
+          <li class="list">
+            <a href="" class="link portfolio">Портфоліо</a>
+          </li>
+          <li class="list"><a href="" class="link contacts">Контакти</a></li>
+        </ul>
       </div>
-    </header>
-<!-- Main -->
-    <main class="main">
+      <ul class="header-contacts">
+        <li class="list">
+          <a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a>
+        </li>
+        <li class="list">
+          <a href="tel:380961111111" class="link tel">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+    <div class="header-main">
+      <h2 class="header-title">Ефективні рішення для вашого бізнесу</h2>
+      <a href="" class="link order">Замовити послугу</a>
+    </div>
+  </header>
 
-    </main>
-<!-- footer -->
-    <footer class="footer">
-    </footer>
+  <div class="wrapper">
+    <main class="main">
+      <section class="advantages">
+        <ul class="adantages-list">
+          <li class="list">
+            <div class="card-logo">
+              <svg class="icon">
+                <use href="/img/icons.svg#antena"></use>
+              </svg>
+            </div>
+            <h3 class="advantages-title">увага до деталей</h3>
+            <p class="advantages-discription">
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+
+          <li class="list">
+            <div class="card-logo">
+              <svg class="icon">
+                <use href="/img/icons.svg#clock"></use>
+              </svg>
+            </div>
+            <h3 class="advantages-title">пунктуальність</h3>
+            <p class="advantages-discription">
+              Завдання організації, особливо рамки і місце навчання кадрів
+              тягне у себе.
+            </p>
+          </li>
+
+          <li class="list">
+            <div class="card-logo">
+              <svg class="icon">
+                <use href="/img/icons.svg#diagrama"></use>
+              </svg>
+            </div>
+            <h3 class="advantages-title">планування</h3>
+            <p class="advantages-discription">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+
+          <li class="list">
+            <div class="card-logo">
+              <svg class="icon">
+                <use href="/img/icons.svg#astronaut"></use>
+              </svg>
+            </div>
+            <h3 class="advantages-title">сучасні технології</h3>
+            <p class="advantages-discription">
+              Значимість цих проблем настільки очевидна, що реалізація
+              планових завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="what_we-do">
+        <h2 class="what_we-do-title">Чим ми займаємося</h2>
+        <ul class="what_we-do-list">
+          <li class="task">
+            <img src="./img/box.png" alt="photo" />
+            <h4 class="task-title">ДЕСКТОПНІ ДОДАТКИ</h3>
+          </li>
+          <li class="task">
+            <img src="./img/box2.png" alt="photo" />
+            <h4 class="task-title">МОБІЛЬНІ ДОДАТКИ</h3>
+          </li>
+          <li class="task">
+            <img src="./img/box3.png" alt="photo" />
+            <h4 class="task-title">ДИЗАЙНЕРСКІ РІШЕННЯ</h3>
+          </li>
+        </ul>
+
 </body>
 </html>
